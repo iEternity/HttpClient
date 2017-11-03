@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{0c3d2c29-c02d-4718-833e-40425463bceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\include">
+      <UniqueIdentifier>{1b3534e1-4ab2-4cd2-b197-ad53ab9ad7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{79e46807-ec9d-4917-8735-82b9c7aff60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{9597ed28-337f-46fc-b19e-10a2e9a06a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\include">
+      <UniqueIdentifier>{c0cda3c9-1da7-4a83-a8bb-6c1fcd3e4fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\lib">
+      <UniqueIdentifier>{b648f623-825d-40aa-bb32-7275e66c8f2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpCookie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="curl\include\curl.h">
+      <Filter>curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\include\curlrules.h">
+      <Filter>curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\include\curlver.h">
+      <Filter>curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\include\easy.h">
+      <Filter>curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\include\mprintf.h">
+      <Filter>curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\include\multi.h">
+      <Filter>curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\include\stdcheaders.h">
+      <Filter>curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\include\typecheck-gcc.h">
+      <Filter>curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpResponse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpCookie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\allocator.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\assertions.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\autolink.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\config.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\features.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\forwards.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\json.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\reader.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\value.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\version.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\writer.h">
+      <Filter>json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\include\system.h">
+      <Filter>curl\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="json\lib\jsoncpp.lib">
+      <Filter>json\lib</Filter>
+    </Library>
+    <Library Include="curl\lib\libcurl.lib">
+      <Filter>curl\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
