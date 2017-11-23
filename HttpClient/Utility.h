@@ -5,7 +5,7 @@
 namespace utility
 {
 
-	std::wstring UTF8_To_UTF16(const std::string &source)
+	inline std::wstring UTF8_To_UTF16(const std::string &source)
 	{
 		unsigned long len = ::MultiByteToWideChar(CP_UTF8, NULL, source.c_str(), -1, NULL, NULL);
 		if (len == 0)
@@ -18,7 +18,7 @@ namespace utility
 		return dest;
 	}
 
-	std::string UTF16_To_UTF8(const std::wstring &source)
+	inline std::string UTF16_To_UTF8(const std::wstring &source)
 	{
 		unsigned long len = ::WideCharToMultiByte(CP_UTF8, NULL, source.c_str(), -1, NULL, NULL, NULL, NULL);
 		if (len == 0)
@@ -32,7 +32,7 @@ namespace utility
 	}
 
 
-	std::wstring GBK_To_UTF16(const std::string &source)
+	inline std::wstring GBK_To_UTF16(const std::string &source)
 	{
 		enum { GB2312 = 936 };
 
@@ -47,7 +47,7 @@ namespace utility
 		return dest;
 	}
 
-	std::string UTF16_To_GBK(const std::wstring &source)
+	inline std::string UTF16_To_GBK(const std::wstring &source)
 	{
 		enum { GB2312 = 936 };
 
@@ -62,7 +62,7 @@ namespace utility
 		return dest;
 	}
 
-	std::string GBK_To_UTF8(const std::string &source)
+	inline std::string GBK_To_UTF8(const std::string &source)
 	{
 		enum { GB2312 = 936 };
 
@@ -87,7 +87,7 @@ namespace utility
 		return dest;
 	}
 
-	std::string UTF8_To_GBK(const std::string &source)
+	inline std::string UTF8_To_GBK(const std::string &source)
 	{
 		enum { GB2312 = 936 };
 
