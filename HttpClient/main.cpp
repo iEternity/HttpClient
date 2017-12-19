@@ -234,16 +234,8 @@ void testAllCase()
 	testCase8(true);
 }
 
-void main()
+int main()
 {	
-	auto request = make_shared<HttpRequest>();
-	request->setRequestType(HttpRequest::Type::GET);
-	request->setUrl("http://music.163.com/api/playlist/detail?id=387699584");
-	request->setCallback(onMessage);
-	HttpClient::getInstance()->send(request);
-
-	while (std::getchar() == 'q' || std::getchar() == 'Q')
-	{
-		break;
-	}
+	testAllCase();
+	getchar();
 }
